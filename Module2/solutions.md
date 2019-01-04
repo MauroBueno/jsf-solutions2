@@ -188,9 +188,9 @@ function multiply(num1, num2) {
 1. Make a function named ten that takes in zero arguments and return the value 10.Try using both () and _ syntax.
 
 ```js
-const ten = () => return 10
+const ten = () => { return 10 }
 
-const ten = _ => return 10
+const ten = _ => { return 10 }
 
 // to run remember the '()'
 ten
